@@ -31,7 +31,7 @@ function Signup() {
 
         try{
 
-            const url = "http://localhost:3002/auth/signup";
+            const url = "https://zerodha-31vm.onrender.com/auth/signup";
             const response = await fetch(url, { 
                 method: "POST",
                 headers: {
@@ -47,7 +47,7 @@ function Signup() {
                 hanndleSuccess(message);
                 setTimeout(()=>{
 
-                    navigate('/signup');
+                   navigate('/signup/login');
 
                 }, 1000)
             }else if(error){
