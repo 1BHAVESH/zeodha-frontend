@@ -30,7 +30,7 @@ function Login() {
 
         try{
 
-            const url = "http://localhost:3002/auth/login";
+            const url = "https://zerodha-31vm.onrender.com/auth/login";
             const response = await fetch(url, { 
                 method: "POST",
                 headers: {
@@ -48,7 +48,7 @@ function Login() {
                 localStorage.setItem("loggedInUser", name);
                 setTimeout(()=>{
 
-                    window.location.href = "http://localhost:5174/";
+                    window.location.href = "https://zerodha-dashboard-peach.vercel.app/";
                 }, 1000)
             }else if(error){
                 const err = error[0];
