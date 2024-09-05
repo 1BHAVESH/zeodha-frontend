@@ -10,7 +10,7 @@ function States() {
                 <h2 className="fs-5">Customer-first always</h2>
           <p className="mb-4 fs-6 text-muted">
             That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores
-            worth of equity investments.
+            worth of equity investments
           </p>
           <h2 className="fs-5">No spam or gimmicks</h2>
           <p className="mb-4 fs-6 text-muted">
